@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Where You're From!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="start-screen">
+            <h1>I will guess where you are from,</h1>
+            <h2 class="subheading">Just answer four simple questions!</h2>
+            <button id="start-button">START</button>
+        </div>
+        <div id="question-container" class="hidden">
+            <p id="question-text"></p>
+            <div id="options"></div>
+        </div>
+        <div id="free-response-container" class="hidden">
+            <p id="free-response-text"></p>
+            <input type="text" id="free-response-input" placeholder="Your answer...">
+            <button id="submit-button">Submit</button>
+        </div>
+        <div id="suspense-screen" class="hidden">
+            <p>This has been quite difficult... your answers weren’t very helpful. Maybe my questions weren’t great either, but I still have a guess.</p>
+            <p>Ready? Click proceed to see my guess!</p>
+            <button id="proceed-button">Proceed</button>
+        </div>
+        <div id="result-screen" class="hidden">
+            <h2 class="final">Your Location and Device Details:</h2>
+            <p id="location-details"></p>
+            <p class="reminder">
+                I could find that in less than a second without even asking. This website is static, so it doesn't report this data anywhere, and it's safe (I promise!) But think of what malicious websites can do. Take care of your internet privacy, and consider investing in a <a href="https://en.wikipedia.org/wiki/Virtual_private_network"></a>VPN!
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
