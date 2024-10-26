@@ -1,11 +1,11 @@
 const questions = [
     {
-        question: "What do you ask for if you're thirsty?",
-        options: ["A bottle of water", "A bo'oh'o'wa'er", "I go to a water fountain"],
-    },
-    {
         question: "How do you pronounce \"Forget about it\"?",
         options: ["Fuhgeddaboudit", "Forget about it", "Bananas"],
+    },
+    {
+        question: "What do you ask for if you're thirsty?",
+        options: ["A bottle of water", "A bo'oh'o'wa'er", "I go to a water fountain"],
     },
     {
         question: "Is deep-dish pizza good?",
